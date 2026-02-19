@@ -16,7 +16,7 @@ app.add_middleware(
 
 summarizer = pipeline(
     task="summarization",
-    model="sshleifer/distilbart-cnn-12-6"  # smaller & stable
+    model="sshleifer/distilbart-cnn-12-6"  
 )
 
 @app.post("/summarize")
